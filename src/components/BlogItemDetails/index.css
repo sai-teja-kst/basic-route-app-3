@@ -1,0 +1,36 @@
+/* Write your CSS code here */
+
+.blog-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  width: 65vw;
+}
+
+.blog-details-title {
+  text-align: center;
+}
+
+.author-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.author-pic {
+  height: 5vh;
+  width: 2.5vw;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.details-author-name {
+  font-size: small;
+}
+
+.blog-image {
+  height: 50vh;
+  margin-top: 5px;
+  border-radius: 10px;
+}
